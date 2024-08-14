@@ -2,7 +2,8 @@ Case A: very long question with maths
 Part I
 I have a problem case with the solution, related to Microeconomics Theory and Public Policy, as shown in the first picture.
 The second picture contain the explanation of the answer.
-Please extract all specific terms, math expressions, notation and formulation. Explain each with an analogy. If any, please describe relationship between them.
+Please explain the context of the problem. (whether it is pure exchange economy, etc.). 
+Please extract all specific terms, math expressions, notation and formulation. Explain each with an analogy. If any, please also describe relationship between them.
 
 Part II
 Please explain the core concepts required to solve the problem.
