@@ -1,6 +1,6 @@
 I have a problem case with the solution, related to Microeconomics Theory and Public Policy, as shown in the first picture.
 The second picture contain the explanation of the answer.
-Please extract all specific terms and expressions, explain each with an analogy.
+Please extract all specific terms and math expressions, explain each with an analogy.
 If any, Please describe relationship between them.
 Then, please explain the core concepts required to solve the problem.
 Then show detailed steps for obtaining the final solution.
