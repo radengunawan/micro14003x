@@ -1,12 +1,11 @@
 Case A: very long question with maths
 Part I
-I have a problem case with the solution, related to Microeconomics Theory and Public Policy, as shown in the first picture.
-The second picture contain the explanation of the answer.
-Please explain the context of the problem. (whether it is pure exchange economy, etc.). 
+I have a problem case with the solution, related to Microeconomics Theory and Public Policy, as shown in the picture.
+Please explain the context of the problem. 
 Please extract all specific terms, math expressions, notation and formulation. Explain each with an analogy. If any, please also describe relationship between them.
 
 Part II
-Please explain the core concepts required to solve the problem.
-Then show detailed steps for obtaining the final solution.
+What core concepts are involved to solve the problem?
+Please show detailed steps for obtaining the final solution.
 
 Case B: for later
