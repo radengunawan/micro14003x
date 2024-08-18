@@ -1,0 +1,49 @@
+### Context of the Problem:
+
+This problem is set in a scenario where there are 1,000 drivers in a city, and each driver must decide whether or not to install LoJack in their car. The decision-making process revolves around comparing the expected payoffs of installing LoJack versus not installing it.
+
+### Key Components:
+
+1. **Number of Drivers (\( L \))**:
+   - **Explanation**: \( L \) represents the number of drivers who choose to install LoJack. The total number of drivers in the city is fixed at 1,000.
+   - **Application**: As more drivers install LoJack, the theft rate decreases, impacting both the expected payoffs for those who install LoJack and those who do not.
+
+2. **Theft Rate \( p(L) \)**:
+   - **Expression**: 
+     \[
+     p(L) = \frac{1000 - L}{1000}
+     \]
+   - **Explanation**: This formula represents the probability that a car will be stolen based on the number of cars with LoJack. As \( L \) increases (more cars with LoJack), \( p(L) \) decreases, meaning the theft probability goes down.
+   - **Application**: This theft probability is used to calculate the expected payoffs for both groups of drivers—those who install LoJack and those who do not.
+
+3. **Expected Payoff for Installing LoJack (\( \pi_L \))**:
+   - **Expression**: 
+     \[
+     \pi_L = p(L) \times 20{,}000 \times 0.95 + (1 - p(L)) \times 20{,}000 \times 1 - 1000
+     \]
+   - **Explanation**: This equation calculates the expected monetary payoff for a driver who installs LoJack. It includes:
+     - The benefit if the car is stolen and recovered (95% chance of recovery).
+     - The benefit if the car is not stolen.
+     - The cost of installing LoJack ($1,000).
+   - **Simplification**: The equation simplifies to \( \pi_L = 18{,}000 + L \), meaning the expected payoff depends on the number of other drivers who also install LoJack.
+
+4. **Expected Payoff for Not Installing LoJack (\( \pi_{NL} \))**:
+   - **Expression**: 
+     \[
+     \pi_{NL} = p(L) \times 20{,}000 \times 0.6 + (1 - p(L)) \times 20{,}000
+     \]
+   - **Explanation**: This equation calculates the expected monetary payoff for a driver who does not install LoJack. It includes:
+     - The benefit if the car is stolen and has a 60% chance of recovery (without LoJack).
+     - The benefit if the car is not stolen.
+   - **Simplification**: The equation simplifies to \( \pi_{NL} = 12{,}000 + 8L \), which again depends on how many other drivers have installed LoJack.
+
+### Conclusion:
+
+- **Blank 1**: The expected payoff for a driver who installs LoJack (\( \pi_L \)) is \( 18{,}000 + L \).
+- **Blank 2**: The expected payoff for a driver who does not install LoJack (\( \pi_{NL} \)) is \( 12{,}000 + 8L \).
+
+### The Bigger Picture:
+
+The problem highlights how individual decisions are influenced by the actions of others in the community. The more drivers who install LoJack, the higher the expected payoff for those who install it (because theft becomes less likely) and the lower the expected payoff for those who don’t (because they benefit indirectly from reduced theft risk).
+
+This scenario illustrates the concept of **strategic interdependence** in economics, where the outcome of one's decision depends on the choices made by others. It also touches on **positive externalities**, where the benefit of one driver installing LoJack extends to others who do not install it, thereby influencing their decision-making process.
