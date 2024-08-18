@@ -1,0 +1,59 @@
+### Context of the Problem:
+
+In this problem, you assume the role of a **benevolent social planner** whose objective is to maximize the welfare of all 1,000 drivers in the city. This social planner aims to find the optimal number of drivers, denoted by \( L^* \), who should install LoJack to achieve maximum total welfare. The problem involves using the previously derived expected payoff functions for drivers who install LoJack (\( \pi_L \)) and those who do not (\( \pi_{NL} \)) to determine the socially efficient outcome.
+
+### Key Concepts and Steps:
+
+1. **Objective of the Social Planner**:
+   - **Explanation**: The social planner's goal is to maximize the combined welfare of all 1,000 drivers. This involves maximizing the sum of the payoffs for all drivers, considering both those who install LoJack and those who do not.
+   - **Application**: The social planner must decide the optimal number of drivers, \( L^* \), who should install LoJack to maximize total welfare.
+
+2. **Maximization Problem**:
+   - **Expression**:
+     \[
+     \max_L \left[L \pi_L + (1000 - L) \pi_{NL}\right]
+     \]
+   - **Explanation**: This expression represents the total welfare of all 1,000 drivers, where \( L \) drivers install LoJack and \( 1000 - L \) drivers do not. The social planner needs to maximize this total welfare by choosing the best value for \( L \).
+
+3. **Substitution of Expected Payoffs**:
+   - **Substituting \( \pi_L \) and \( \pi_{NL} \)**:
+     \[
+     \pi_L = 18{,}000 + L
+     \]
+     \[
+     \pi_{NL} = 12{,}000 + 8L
+     \]
+   - **Maximization Expression**:
+     \[
+     \max_L \left[L(18{,}000 + L) + (1000 - L)(12{,}000 + 8L)\right]
+     \]
+   - **Explanation**: The social planner substitutes the expected payoff functions into the maximization problem to express the total welfare as a function of \( L \).
+
+4. **Simplification and Maximization**:
+   - **Simplified Expression**:
+     \[
+     \max_L \left[ -7L^2 + 14{,}000L + 12{,}000{,}000 \right]
+     \]
+   - **Explanation**: After simplifying the expression, the social planner is left with a quadratic function in \( L \). The coefficient of \( L^2 \) is negative, indicating that the function is concave and has a maximum point.
+   - **First-Order Condition (FOC)**:
+     \[
+     -14L^* + 14{,}000 = 0
+     \]
+   - **Solving for \( L^* \)**:
+     \[
+     L^* = 1000
+     \]
+   - **Explanation**: The FOC is derived by taking the derivative of the welfare function with respect to \( L \) and setting it equal to zero to find the maximum point. The solution \( L^* = 1000 \) indicates that the maximum welfare occurs when all 1,000 drivers install LoJack.
+
+5. **Social Efficiency and Theft Rate \( p(L^*) \)**:
+   - **Explanation**: Given that \( L^* = 1000 \), the theft rate \( p(L^*) \) becomes:
+     \[
+     p(L^*) = p(1000) = \frac{1000 - 1000}{1000} = 0
+     \]
+   - **Interpretation**: This result implies that if every driver installs LoJack, the theft rate drops to zero, meaning no cars would be stolen. From a social efficiency perspective, this outcome maximizes total welfare by completely eliminating the risk of theft.
+
+### Conclusion:
+
+The problem illustrates the concept of **social efficiency** in a community setting. The social planner, by considering the welfare of all drivers, determines that the socially optimal outcome is for every driver to install LoJack. This outcome not only maximizes individual payoffs but also results in a collective benefit where the theft rate drops to zero, ensuring that no one’s car is at risk of being stolen.
+
+This scenario underscores the idea that individual decision-making, driven solely by private payoffs, might not always lead to the socially optimal outcome. However, when the decision-making process considers the collective good, as done by the social planner, the outcome can be far more beneficial for everyone in the community.
