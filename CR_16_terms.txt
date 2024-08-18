@@ -1,0 +1,40 @@
+### 1. **Incentives**
+
+**Explanation**:  
+Incentives are factors that motivate or encourage a person to take a particular action. They can be positive (rewards or benefits) or negative (penalties or costs). Incentives influence decision-making by altering the perceived benefits or costs associated with different choices.
+
+**Analogy**:  
+Imagine you're a student, and your teacher offers extra credit for completing an optional assignment. The extra credit is a positive incentive that encourages you to do the assignment. On the other hand, if the teacher says you'll lose points if you don’t submit your homework on time, the penalty is a negative incentive that motivates you to meet the deadline.
+
+### 2. **Expected Benefit**
+
+**Explanation**:  
+Expected benefit is the anticipated gain or value from an action, calculated by considering all possible outcomes and their probabilities. In decision-making, it represents the average outcome you can expect if you were to repeat the decision many times under similar circumstances.
+
+**Analogy**:  
+Suppose you’re playing a game where you flip a coin. If it lands on heads, you win $10, and if it lands on tails, you win nothing. The expected benefit is the average amount you'd win if you played this game multiple times. Since there's a 50% chance of winning $10 and a 50% chance of winning $0, the expected benefit would be \( 0.5 \times 10 + 0.5 \times 0 = 5 \) dollars.
+
+### 3. **Marginal Benefit**
+
+**Explanation**:  
+Marginal benefit is the additional gain received from consuming or producing one more unit of a good or service. It's the benefit you get from "just one more" unit. In economic terms, it's important because it helps determine how much of something is worth doing or consuming.
+
+**Analogy**:  
+Imagine you’re eating slices of pizza. The first slice is delicious and gives you a lot of satisfaction, but as you eat more slices, each additional slice gives you less satisfaction than the previous one. The extra satisfaction you get from eating one more slice is the marginal benefit. At some point, the marginal benefit might become so low that you decide it’s not worth eating another slice.
+
+### 4. **Marginal Cost**
+
+**Explanation**:  
+Marginal cost is the additional cost incurred from producing or consuming one more unit of a good or service. It's the extra expense required to increase production or consumption by a single unit. In decision-making, comparing marginal cost to marginal benefit helps determine the optimal level of production or consumption.
+
+**Analogy**:  
+Let’s say you’re a baker making cookies. The cost of ingredients for making 100 cookies is $50. If making one more cookie costs you an additional $0.50, that’s the marginal cost. If each cookie sells for $1, you might decide it’s worth making and selling one more cookie because the benefit ($1) outweighs the marginal cost ($0.50).
+
+### 5. **Decision-Making Under Uncertainty**
+
+**Explanation**:  
+Decision-making under uncertainty involves making choices without knowing exactly what the outcome will be. In these situations, people must weigh the probabilities of different outcomes and their associated benefits or costs to make the best decision possible.
+
+**Analogy**:  
+Imagine you're planning a picnic, but the weather forecast says there’s a 50% chance of rain. You have to decide whether to go ahead with the picnic (and risk getting rained on) or cancel it and stay indoors. Since you don’t know for sure whether it will rain, you’re making a decision under uncertainty. You might consider the enjoyment of the picnic (if it doesn’t rain) versus the inconvenience (if it does rain) to make your choice.
+
