@@ -1,0 +1,61 @@
+### Determining the Steepness of Curves: An Explanation
+
+To understand how one curve is steeper or less steep compared to another, we need to look at the **slope** of the curves. The slope essentially tells us how quickly the value of the curve (in this case, the payoff) changes as we move along the x-axis (the fraction of users, \( F \)).
+
+### What is Slope?
+
+- **Slope** is a measure of the steepness of a line or curve. For a straight line, the slope is constant and can be calculated as the "rise over run," or the change in the y-value divided by the change in the x-value.
+  
+- For a curve, the slope at any given point is the derivative at that point, which tells us how the y-value is changing at that specific x-value.
+
+### Comparing Slopes
+
+- **Steeper Slope**: If one curve rises or falls more quickly than another as you move along the x-axis, it has a steeper slope. A steeper slope indicates that the y-value (payoff) is changing more rapidly.
+  
+- **Less Steep Slope**: If a curve changes more gradually (less rise or fall), it has a less steep slope. This means the y-value (payoff) is changing more slowly as you move along the x-axis.
+
+### Real-Life Example: Walking Up Two Different Hills
+
+Imagine you’re hiking up two different hills. One hill is very steep (let’s call this Hill A), and the other is more gradual (Hill B).
+
+- **Hill A (Steep Slope)**: As you walk up Hill A, you have to climb a lot with each step forward. This means for every meter you walk forward (along the x-axis), you gain a lot of elevation (y-axis). This represents a steep slope.
+
+- **Hill B (Less Steep Slope)**: As you walk up Hill B, your elevation increases more slowly. For every meter forward, you don’t climb as much as on Hill A. This represents a less steep slope.
+
+### Applying to the Plot in the Problem
+
+In the problem, you’re comparing the steepness of two payoff curves:
+
+- **\( \pi_F \) Curve**: Represents the payoff for FacePhone users.
+- **\( \pi_G \) Curve**: Represents the payoff for GPhone users.
+
+#### Determining Steepness from the Plot:
+
+1. **Near \( F = 0.16 \)**:
+   - Look at how quickly each curve is rising or falling as \( F \) increases.
+   - If the \( \pi_G \) curve is rising more quickly than the \( \pi_F \) curve as you move to the right from \( F = 0.16 \), it means \( \pi_G \) has a steeper slope in that region. 
+
+2. **Slope Comparison**:
+   - If the slope of \( \pi_G \) (the GPhone payoff) is steeper than \( \pi_F \) around \( F = 0.16 \), it indicates that any small increase in \( F \) would cause a significant change in the GPhone payoff, encouraging users to stick with or switch back to GPhone.
+   - Conversely, if the slope of \( \pi_F \) is less steep, it means the payoff for FacePhone isn’t increasing as quickly, and small increases in \( F \) might not be enough to keep users on FacePhone unless they can push past this point.
+
+### Real-Life Slope Comparison Example:
+
+Imagine you’re choosing between two investment options:
+
+- **Investment A**: For every $1,000 you invest, your returns grow quickly (let’s say $100 per year).
+- **Investment B**: For every $1,000 you invest, your returns grow more slowly (say $50 per year).
+
+- **Steeper Slope (Investment A)**: Your investment grows faster, representing a steeper slope.
+- **Less Steep Slope (Investment B)**: Your investment grows more slowly, representing a less steep slope.
+
+When comparing these two investments, you can see that Investment A’s returns increase more rapidly, just like how in the plot, the payoff for one phone might increase more rapidly than the other depending on the slope of the curves.
+
+### Summary:
+
+In the context of the plot:
+
+- **Steeper Curve**: Indicates a faster increase in payoff as \( F \) changes, suggesting that users will quickly respond to changes in \( F \).
+- **Less Steep Curve**: Indicates a slower increase in payoff, meaning users may not react as strongly to changes in \( F \).
+
+By comparing the slopes around \( F = 0.16 \), you can determine whether small changes in adoption will push users towards FacePhone or GPhone, thus identifying \( F = 0.16 \) as an unstable equilibrium.

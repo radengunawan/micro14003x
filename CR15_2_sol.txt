@@ -1,0 +1,64 @@
+### Context of the Problem
+
+This problem revolves around the idea of **subsidizing** a portion of the population to switch from using GPhone to FacePhone in order to ensure that FacePhone adoption reaches a stable equilibrium where its usage becomes self-sustaining without further intervention.
+
+### Explanation:
+
+Initially, **everyone uses GPhone** (\( F = 0 \)), and Facebook wants to introduce FacePhone into the market in such a way that a **non-zero fraction** of people will continue using FacePhone even after any subsidies are removed. The challenge is to determine the minimum fraction of GPhone users that need to be subsidized (encouraged with some financial incentive) to switch to FacePhone so that FacePhone usage doesn't revert back to zero.
+
+### Key Concepts and Terms:
+
+1. **Subsidizing GPhone Users**:
+   - **Analogy**: Imagine trying to start a new trend in a school where everyone wears one style of shoes (GPhone). To make the new style (FacePhone) popular, you might give out free or discounted pairs to a few students, hoping that once some students start wearing them, others will follow naturally.
+   - **Explanation**: Facebook might pay or incentivize some GPhone users to switch to FacePhone. The goal is to subsidize just enough users so that, after the subsidy is removed, the adoption of FacePhone is self-sustaining and doesn't fall back to zero.
+
+2. **Unstable Equilibrium (\( F = 0.16 \))**:
+   - **Analogy**: Think of a ball on the top of a hill. A small push in either direction will cause it to roll down the hill, either to the left or to the right.
+   - **Explanation**: \( F = 0.16 \) is considered an **unstable equilibrium** because, at this point, even a slight increase or decrease in FacePhone users could lead to a significant change in the adoption rate. If the fraction of users using FacePhone slightly increases above 0.16, the adoption rate is likely to jump to the next stable point, \( F = 0.63 \). If it decreases, it could drop back to \( F = 0 \).
+
+3. **Stable Equilibrium (\( F = 0.63 \))**:
+   - **Analogy**: Imagine a ball resting in a valley. If you push it slightly, it will roll back to the bottom of the valley. This represents stability.
+   - **Explanation**: At \( F = 0.63 \), FacePhone usage is stable, meaning that if the fraction of users using FacePhone is around this value, the market will naturally stay around this equilibrium without further intervention.
+
+### Solution and Reasoning:
+
+- **Minimum Fraction of GPhone Users to Subsidize**: The correct answer is **\( 0.16 + \epsilon \)** (where \( \epsilon \) is a small positive value). 
+  - If Facebook can get a fraction of GPhone users slightly above the unstable equilibrium point \( F = 0.16 \), FacePhone usage is likely to rise to the next stable equilibrium at \( F = 0.63 \), ensuring that FacePhone maintains a non-zero user base in the market.
+
+- **Why Not 0 or 0.63?**:
+  - If the fraction \( F \) is just above 0, it will likely fall back to zero without strong network externalities.
+  - Subsidizing up to \( F = 0.63 \) is more than necessary, as just getting past the unstable equilibrium at \( 0.16 \) should be enough to ensure that FacePhone usage will rise naturally to \( F = 0.63 \).
+
+### Summary:
+
+This problem highlights the importance of strategic intervention in markets with network externalities. By subsidizing a critical mass of early adopters just beyond the unstable equilibrium, Facebook can ensure that FacePhone achieves a stable and self-sustaining level of adoption.
+
+
+The plot does indeed show the behavior that indicates \( F = 0.16 \) is an unstable equilibrium. Here's how we can determine this:
+
+### Identifying Stability from the Plot:
+
+1. **Slope of Payoff Functions**:
+   - **At Equilibrium Points**: Equilibrium occurs where the payoff for using FacePhone (\( \pi_F \)) equals the payoff for using GPhone (\( \pi_G \)). This happens at the points where the curves intersect on the plot.
+   - **Stable vs. Unstable Equilibrium**:
+     - **Stable Equilibrium**: If a small increase or decrease in \( F \) around the equilibrium leads to a return to the equilibrium point, the equilibrium is stable. This occurs when the slope of \( \pi_F \) is steeper than the slope of \( \pi_G \) on either side of the intersection.
+     - **Unstable Equilibrium**: If a small increase or decrease in \( F \) causes the system to move away from the equilibrium, it is unstable. This occurs when the slope of \( \pi_G \) is steeper than the slope of \( \pi_F \) on either side of the intersection.
+
+2. **Analyzing \( F = 0.16 \)**:
+   - **Intersection Point**: At \( F = 0.16 \), the payoff curves intersect, meaning the payoffs for using FacePhone and GPhone are equal at this point.
+   - **Behavior Around \( F = 0.16 \)**:
+     - If you look just to the left of \( F = 0.16 \), the slope of \( \pi_G \) (red line) is steeper than \( \pi_F \) (blue line). This suggests that if the fraction of FacePhone users drops slightly below \( 0.16 \), the payoff for GPhone users would be higher, causing more users to switch back to GPhone, driving \( F \) further down.
+     - If you look just to the right of \( F = 0.16 \), the slope of \( \pi_F \) is less steep, meaning that any small increase in \( F \) will lead to a higher payoff for FacePhone users, encouraging more people to switch to FacePhone, pushing \( F \) up towards the next stable equilibrium.
+
+   This means that small deviations from \( F = 0.16 \) will lead to movements away from this point, either towards \( F = 0 \) (if \( F \) decreases) or towards \( F = 0.63 \) (if \( F \) increases).
+
+3. **Conclusion**:
+   - Because small changes in \( F \) around \( 0.16 \) do not result in a return to \( 0.16 \) but rather push \( F \) either towards \( 0 \) or \( 0.63 \), \( F = 0.16 \) is identified as an unstable equilibrium.
+
+### The Plot and Stability:
+
+- **\( F = 0.63 \)** is a **stable equilibrium** because any deviation from this point will likely cause the system to return to it. The slopes around this point indicate that users have little incentive to switch back to GPhone once \( F \) reaches this level.
+
+- **\( F = 0 \)** is also a stable equilibrium, but in the context of the plot and the problem, it represents the situation where no one uses FacePhone, which is stable but undesirable for Facebook.
+
+- **\( F = 0.16 \)** is an **unstable equilibrium**, as explained above, and the plot clearly shows this behavior through the relative slopes of the payoff functions around this point.
